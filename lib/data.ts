@@ -100,7 +100,7 @@ export const WORKS: Work[] = [
     body: "A members-only library of Japanese light novels and manga for the TMW community. There is no account to make: ring the bell in Discord, a bot hands you a one-hour key, and a Live2D librarian keeps the desk while you search.",
     stack: ["Next.js", "Express", "PostgreSQL", "Meilisearch", "discord.js"],
     links: [{ label: "Members only", href: "https://books.tmw.moe" }],
-    image: { src: "/works/tmw-archive-library.webp", width: 1600, height: 908, alt: "TMW Archive home page: a title banner above a library of Japanese light novel covers" },
+    image: { src: "/works/tmw-archive-library.webp", width: 1600, height: 900, alt: "TMW Archive library page: a grid of Japanese light novel covers with the Live2D librarian in the corner" },
     theme: { bg: "#e3ead9", fg: "#16240f", wash: "#8fb36a" },
   },
   {
