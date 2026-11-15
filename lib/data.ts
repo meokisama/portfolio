@@ -110,13 +110,13 @@ export const WORKS: Work[] = [
     kind: "Web platform",
     year: "2025",
     tagline: "One tidy shelf for every light novel I get asked to share.",
-    body: "People kept asking for books and passing files around one by one got tiring. Now there is a library to browse, and every title opens straight in the browser through the web port of Aozora.",
-    stack: ["Next.js", "Express", "MongoDB"],
+    body: "People kept asking for books and passing files around one by one got tiring. Now there is a shelf to browse, set like a Japanese paperback: paper, ink and one vermilion seal. The newest arrivals float in a WebGL ring over marbled suminagashi ink, and every title opens straight in the browser through the web port of Aozora.",
+    stack: ["Next.js", "Three.js", "Express", "MongoDB"],
     links: [
       { label: "Visit", href: "https://hub.ranobe.vn" },
       { label: "Source", href: "https://github.com/meokisama/ranobe-hub" },
     ],
-    image: { src: "/works/ranobe-hub.webp", width: 1600, height: 904, alt: "Ranobe Hub home page with a grid of light novel covers" },
+    image: { src: "/works/ranobe-hub.webp", width: 1600, height: 904, alt: "Ranobe Hub home page: light novel covers floating as 3D books over marbled paper, beside the Ranobe Hub wordmark" },
     theme: { bg: "#f6e3d0", fg: "#2e1a0b", wash: "#f0a560" },
   },
   {
@@ -126,13 +126,13 @@ export const WORKS: Work[] = [
     kind: "Publication",
     year: "2024",
     tagline: "A quiet corner of the internet for light-novel thoughts.",
-    body: "Long-form reviews, essays and interviews in Vietnamese. Statically generated, written in MDX through an in-browser CMS, with fuzzy search and a mascot who watches you read.",
-    stack: ["Next.js", "MDX", "Keystatic", "Tailwind"],
+    body: "Long-form reviews, essays and interviews in Vietnamese, laid out like a small magazine. Statically generated from MDX written in an in-browser CMS. The home page opens on a ring of covers you can spin, drawn in WebGL, and Ctrl+K searches every word of every post.",
+    stack: ["Next.js", "MDX", "Keystatic", "Three.js", "Tailwind"],
     links: [
       { label: "Read", href: "https://ranobe.vn" },
       { label: "Source", href: "https://github.com/meokisama/ranobe-blog" },
     ],
-    image: { src: "/works/ranobe-blog-light.webp", width: 1600, height: 908, alt: "Ranobe Blog home page, a bento grid of essays and character art" },
+    image: { src: "/works/ranobe-blog-light.webp", width: 1600, height: 908, alt: "Ranobe Blog home page: a ring of light novel covers orbiting the Ranobe wordmark" },
     theme: { bg: "#efe9d3", fg: "#26220f", wash: "#d9c26a" },
   },
   {
