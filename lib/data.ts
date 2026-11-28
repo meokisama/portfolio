@@ -61,8 +61,25 @@ export const WORKS: Work[] = [
     theme: { bg: "#dbe7f1", fg: "#12202e", wash: "#8fb9de" },
   },
   {
-    slug: "moe2d",
+    slug: "yan",
     numeral: "弐",
+    title: "Yan",
+    jp: "やん",
+    kind: "Component library",
+    year: "2026",
+    tagline: "Kawaii React components that squish and sparkle.",
+    body: "Buttons, switches, dialogs and friends with candy surfaces, a mochi squish and little bursts of sparkles and hearts. Built on Radix and Tailwind and handed out through the shadcn registry, so the code lands in your project and is yours to change. One prop turns the sugar down: kawaii, subtle or off.",
+    stack: ["React", "Radix", "Tailwind", "shadcn registry", "Next.js"],
+    links: [
+      { label: "Docs", href: "https://yan.moe" },
+      { label: "Source", href: "https://github.com/meokisama/yan" },
+    ],
+    image: { src: "/works/yan.webp", width: 1600, height: 900, alt: "Yan home page: a sticker-type headline beside a pink 3D mochi with a flower on its head, on a pastel sunburst with candy shapes floating around" },
+    theme: { bg: "#fdf0bf", fg: "#45102f", wash: "#ff8fc0" },
+  },
+  {
+    slug: "moe2d",
+    numeral: "参",
     title: "moe2d",
     kind: "Open-source library",
     year: "2026",
@@ -78,7 +95,7 @@ export const WORKS: Work[] = [
   },
   {
     slug: "gloss",
-    numeral: "参",
+    numeral: "肆",
     title: "Gloss",
     kind: "Tray app",
     year: "2026",
@@ -91,7 +108,7 @@ export const WORKS: Work[] = [
   },
   {
     slug: "ranobe-giveaway",
-    numeral: "肆",
+    numeral: "伍",
     title: "Giveaway Booster",
     kind: "Event site",
     year: "2026",
@@ -104,7 +121,7 @@ export const WORKS: Work[] = [
   },
   {
     slug: "bxh-lnvn",
-    numeral: "伍",
+    numeral: "陸",
     title: "Light Novel Ranking",
     kind: "Community ranking",
     year: "2026",
@@ -117,7 +134,7 @@ export const WORKS: Work[] = [
   },
   {
     slug: "tmw-archive",
-    numeral: "陸",
+    numeral: "漆",
     title: "TMW Archive",
     jp: "書庫",
     kind: "Community library",
@@ -131,7 +148,7 @@ export const WORKS: Work[] = [
   },
   {
     slug: "ranobe-hub",
-    numeral: "漆",
+    numeral: "捌",
     title: "Ranobe Hub",
     kind: "Web platform",
     year: "2025",
@@ -147,7 +164,7 @@ export const WORKS: Work[] = [
   },
   {
     slug: "ranobe-blog",
-    numeral: "捌",
+    numeral: "玖",
     title: "Ranobe Blog",
     kind: "Publication",
     year: "2024",
@@ -163,7 +180,7 @@ export const WORKS: Work[] = [
   },
   {
     slug: "toolkit-engine",
-    numeral: "玖",
+    numeral: "拾",
     title: "Toolkit Engine",
     kind: "Industrial software",
     year: "2025",
